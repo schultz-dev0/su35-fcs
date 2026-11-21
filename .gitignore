@@ -19,3 +19,8 @@ codegen/
 *.mat
 !export/*.mat
 .DS_Store
+
+# Reference harness build output (compiled from the mod source, never committed)
+reference/build/
+analysis/out/
+analysis/compare/out/
