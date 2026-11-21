@@ -1,0 +1,21 @@
+# Parameters taken from the DCS mod's flight model: generated locally, never committed (the repo may go public)
+plant/private/
+
+# Course material and manuals: cited in docs/sources.md, not redistributed
+docs/course/
+docs/manuals/
+
+# Flight recordings are large; commit only small trimmed samples under data/samples/
+data/*.csv
+data/recordings/
+
+# MATLAB and Simulink build output
+slprj/
+codegen/
+*.slxc
+*.asv
+*.autosave
+*.mex*
+*.mat
+!export/*.mat
+.DS_Store
